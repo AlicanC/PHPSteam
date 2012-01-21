@@ -1,0 +1,599 @@
+body {
+	font-family:Arial, Helvetica, Verdana, sans-serif;
+	font-size:0.75em;
+	background-color:#486069;
+	background-image:url('../images/background.gif');
+	background-repeat: repeat-y;
+	background-position:center;
+	color:#ffffff;
+	text-align:center;
+	margin:0;
+	padding:0;
+
+	scrollbar-track-color:#2c2c2c;
+}
+
+/* --[ same as a.linkStandard ]------------------- */
+a,a:hover,a:active,a:visited {
+	font-size: 11px;
+	color: #ebebeb;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold;
+	margin:0px 0px 0px 0px;
+}
+
+h1 {	font-size:2.5em;	}
+h2	{	font-size:1.5em;	}
+h3	{	font-size:1.0em;	}
+
+h1.huge {
+	font-size:72px;
+	letter-spacing:-0.03em;
+}
+select.language_select {
+	margin-top: 3px; 
+	background-color:#9C9EA0;
+	border:1px solid #000000;
+	color:#000000;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size:10px;
+	margin:0px;
+	padding:2px;
+	text-align:left;
+	text-decoration:none;
+	width:200px;
+}
+
+#mainBG {
+	/* background-image:url('http://steamcommunity.com/public/images/skin_1/contentBG.gif'); */
+	background-color:#292829;
+	background-repeat:no-repeat;
+	background-position:0px 7px;
+	background-attachment:scroll;
+	width:800px;
+	padding:0;
+	padding-bottom:15px;
+	margin:0;
+}
+
+#contentBG {
+	background-image:url('../images/contentBG.gif');
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	background-attachment:scroll;
+	min-height:7px;
+	height:auto;
+	width:770px;
+	margin:0;
+	padding:0px 15px 0px 15px;
+	text-align:left;
+}
+
+form {
+	margin:0;
+	padding:0;
+}
+
+input {
+	background-color:#1a1a1a;
+	color:#909090;
+	border:solid 1px #707070;
+	position:relative;
+	top:3px;
+}
+
+input[type='checkbox'] {
+	background-color:#1a1a1a;
+	color:#909090;
+	border:solid 1px #707070;
+}	
+
+select {
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size:11px;
+	background-color:#1a1a1a;
+	color:#B4DA45;
+}
+
+.hrBreak {
+	background-image:url('../images/breaker.gif');
+	background-repeat:repeat-x;
+	background-attachment:scroll;
+	height:5px;
+	padding:0;
+	line-height:0;
+	font-size:0px;
+	min-height:5px;
+	min-width:480px;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+#footer {
+	position:relative;
+	text-align:left;
+	width:958px;
+	height:94px;
+	font-size:10px;
+	color:#777777;
+	border:0;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	background-image:url('../images/footerBG.gif');
+	background-repeat:no-repeat;
+}
+
+#footerText {
+	position:absolute;
+	top:8px;
+	left:120px;
+	margin:0;
+	padding:0;
+	
+}
+
+#footerLogo {
+	position:absolute;
+	top:12px;
+	left:16px;
+	width:94px;
+	margin:0;
+	padding:0;
+}
+
+#fullAvatarPop {
+	position:absolute;
+	width:216px;
+	height:145px;
+	background-color:#000000;
+	padding:5px;
+	border:solid #b4da45 1px;
+}
+
+#fullGamePop {
+	position:absolute;
+	width:280px;
+	height:105px;
+	background-color:#000000;
+	padding:5px;
+	border:solid #b4da45 1px;
+}
+
+.gameLogoHolder_default {
+	position:relative;
+	width:192px;
+	height:77px;
+	border:0;
+	padding:0;
+	margin:0;
+	background-image:url('../images/gamelogoholder_default.jpg');
+}
+
+.gameLogo {
+	position:absolute;
+	width:184px;
+	height:69px;
+	border:0;
+	padding:0;
+	margin:0;
+	top:4px;
+	left:4px;
+}
+
+.gameLogo img {
+	border:0;
+	padding:0;
+	margin:0;
+	width:184px;
+	height:69px;
+}
+
+.avatarHolder_default {
+	position:relative;
+	width:192px;
+	height:192px;
+	border:0;
+	padding:0;
+	margin:0;
+	background-image:url('../images/avatarholder_default.jpg');
+}
+
+.avatarFull {
+	position:absolute;
+	width:184px;
+	height:184px;
+	border:0;
+	padding:0;
+	margin:0;
+	top:4px;
+	left:4px;
+}
+
+.avatarFull img {
+	border:0;
+	padding:0;
+	margin:0;
+	width:184px;
+	height:184px;
+}
+
+.iconHolder_default,.iconHolder_online,.iconHolder_in-game,.iconHolder_offline,.iconHolder_ignored {
+	position:relative;
+	width:40px;
+	height:40px;
+	border:0;
+	padding:0;
+	margin:0;
+}
+.iconHolder_default {
+
+	background-image:url('../images/iconholder_default.jpg');
+}
+.iconHolder_offline {
+	background-image:url('../images/iconholder_offline.jpg');
+}
+.iconHolder_ignored {
+	background-image:url('../images/iconholder_offline.jpg');
+}
+.iconHolder_online {
+	background-image:url('../images/iconholder_online.jpg');
+}
+.iconHolder_in-game {
+	background-image:url('../images/iconholder_ingame.jpg');
+}
+
+.mediumHolder_default
+{
+	position:relative;
+	width:72px;
+	height:72px;
+	border:0;
+	padding:0;
+	margin:0;
+	background-image:url('../images/mediumholder_default.gif' );
+}
+
+.avatarMedium {
+	position:absolute;
+	width:64px;
+	height:64px;
+	border:0;
+	padding:0;
+	margin:0;
+	top:4px;
+	left:4px;
+}
+
+.avatarMedium img {
+	border:0;
+	padding:0;
+	margin:0;
+	width:64px;
+	height:64px;
+}
+
+.avatarIcon {
+	position:absolute;
+	width:32px;
+	height:32px;
+	border:0;
+	padding:0;
+	margin:0;
+	top:4px;
+	left:4px;
+}
+.avatarIcon img {
+	border:0;
+	padding:0;
+	margin:0;
+	width:32px;
+	height:32px;
+}
+
+.hiliteTextGreen {
+	color:#8bc53f;
+}
+
+.hiliteTextRed {
+	color:#f26c4f;
+}
+
+.hiliteTextBlue {
+	color:#6f9fc8;
+}
+
+
+/* --[ global infoblock layot settings ]------------------- */
+
+.infoBreak {
+	color:#545454;
+	font-size:11px;
+}
+
+.infoBreak2 {
+	color:#2c4b66;
+	font-size:11px;
+	font-weight:normal;
+}
+
+.memberRow {
+	font-size:11px;
+	padding-top:5px;
+	color:#939393;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+}
+
+.eventTitle {
+	padding-top:4px;
+	padding-bottom:1px;
+}
+
+/* --[ links ]------------------- */
+a.linkStandard,a.linkStandard:hover,a.linkStandard:active,a.linkStandard:visited {
+	font-size: 11px;
+	color: #ebebeb;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a.linkStandard:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+a.linkTitle,a.linkTitle:hover,a.linkTitle:active,a.linkTitle:visited {
+	font-weight:bold;
+	font-size: 15px;
+	color: #ebebeb;
+	text-decoration:none;
+}
+
+a.linkTitle:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+a.linkAction,a.linkAction:hover,a.linkAction:active,a.linkAction:visited {
+	font-weight:bold;
+	font-size: 11px;
+	color: #62a7e3;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a.linkAction:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+a.linkActionInGame,a.linkActionInGame:hover,a.linkActionInGame:active,a.linkActionInGame:visited {
+	font-weight:bold;
+	font-size: 11px;
+	color: #8bc53f;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a.linkActionInGame:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+a.linkInGame,a.linkInGame:hover,a.linkInGame:active,a.linkInGame:visited {
+	font-size: 11px;
+	color: #8bc53f;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+span.membersInGame {
+	font-size: 11px;
+	color: #8bc53f;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a.linkInGame:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+a.linkOnline,a.linkOnline:hover,a.linkOnline:active,a.linkOnline:visited {
+	font-size: 11px;
+	color: #62a7e3;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+span.membersOnline {
+	font-size: 11px;
+	color: #62a7e3;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	text-decoration:none;
+}
+
+a.linkOnline:hover {
+	text-decoration:underline;
+	color:#FFFFFF;
+}
+
+
+
+
+
+/* --[ OLD links ]------------------- */
+
+
+a.linkBlue,a.linkBlue:hover,a.linkBlue:active,a.linkBlue:visited {
+	font-size: 11px;
+	color: #6f9fc8;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+}
+
+a.linkGreen,a.linkGreen:hover,a.linkGreen:active,a.linkGreen:visited {
+	color: #8bc53f;
+}
+
+a.linkGrey,a.linkGrey:hover,a.linkGrey:active,a.linkGrey:visited {
+	font-size: 15px;
+	color: #e1e1e1;
+}
+
+a.linkRed,a.linkRed:hover,a.linkRed:active,a.linkRed:visited {
+	font-size: 13px;
+	color: #f26c4f;
+}
+
+/* --[ /links ]------------------- */
+
+/* --[ friend blocks ]------------------- */
+.friendBlock_offline,.friendBlock_online,.friendBlock_in-game,.friendBlock_ignored {
+	width:250px;
+	height:40px;
+	padding:0;
+	margin:0;
+	padding-left:4px;
+	padding-top:4px;
+	padding-bottom:4px;
+	margin-bottom:4px;
+	background-image:url('../images/friendBlockBG.gif');
+	font-size:11px;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	line-height:13px;
+}
+
+.friendBlock_offline:hover,.friendBlock_online:hover,.friendBlock_in-game:hover,.friendBlock_ignored  {
+	background-image:url('../images/friendBlockOverBG.gif');
+	cursor:pointer;
+}
+
+.friendHighlight {
+	background-image:url('../images/friendBlockOverBG.gif');
+	cursor:pointer;
+}
+
+.friendBlock_offline {
+	color:#898989;
+}
+
+.friendBlock_online {
+	color:#62a7e3;
+}
+
+.friendBlock_in-game {
+	color:#8bc53f;
+}
+
+.friendBlock_ignored {
+	color:#f26c4f;
+}
+
+.friendBlock_offline p,.friendBlock_online p,.friendBlock_in-game p,.friendBlock_ignored p {
+	margin:0;
+	padding:0;
+	padding-top:0px;
+}
+
+.friendBlockIcon {
+	float:left;
+	width:40px;
+	height:40px;
+	margin:0;
+	padding:0;
+	margin-right:7px;
+}
+
+a.linkFriend_online,a.linkFriend_online:hover,a.linkFriend_online:active,a.linkFriend_online:visited {
+	color:#6fbdff;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.linkFriend_offline,a.linkFriend_offline:hover,a.linkFriend_offline:active,a.linkFriend_offline:visited {
+	color:#898989;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.linkFriend_in-game,a.linkFriend_in-game:hover,a.linkFriend_in-game:active,a.linkFriend_in-game:visited,.linkFriend_in-game a,.linkFriend_in-game a:hover,.linkFriend_in-game a:active,.linkFriend_in-game a:visited {
+	color:#b1fb50;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.linkFriend_ignored,a.linkFriend_ignored:hover,a.linkFriend_ignored:active,a.linkFriend_ignored:visited,.linkFriend_ignored a,.linkFriend_ignored a:hover,.linkFriend_ignored a:active,.linkFriend_ignored a:visited {
+	color:#f26c4f;
+	font-weight:bold;
+	text-decoration:none;
+}
+/* --[ /friend blocks ]------------------- */
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hide from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+.overlayDisabled {
+	color:#9a9a9a;
+	font-style:italic;
+	font-size:10px;
+}
+.overlayDisabled11 {
+	color:#9a9a9a;
+	font-style:italic;
+	font-size:11px;
+}
+
+.steamTooltip {
+	border:solid #595959 2px;
+	margin:0;
+	padding:0;
+}
+
+p.errorPrivate {
+	color:#f26c4f;
+	font-weight:bold;
+	margin-left:6px;
+}
+
+.pubGroup {
+	color:#d05f29;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.mainSectionHeader,#mainSectionHeaderTop,.rightSectionHeader {
+	color: #929292;
+}
+
+a.headlineLink,a.headlineLink:hover,a.headlineLink:active,a.headlineLink:visited,.headlineLink {
+	color:#ebebeb;
+	font-weight:bold;
+	font-family:arial, helvetica, tahoma, sans-serif;
+	font-size:15px;
+	text-decoration:none;
+}
+
+a.headlineLink:hover {
+	color:#ffffff;
+	text-decoration:underline;
+}

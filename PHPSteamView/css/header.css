@@ -1,0 +1,198 @@
+#headerBar {
+	text-align:left;
+	margin:0;
+	padding:0;
+	background-color:#111111;
+	width:100%;
+	color:#545454;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+	font-size:10px;
+	margin-bottom:0px;
+}
+
+a.headerLink,a.headerLink:active,a.headerLink:visited,a.headerLink:hover {
+	text-decoration:none;
+	color:#959595;
+}
+
+#headerRight {
+	float:right;
+	padding:0;
+	margin:0;
+	padding-right:27px;
+}
+
+#headerLinks>p {
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#headerRight .personaName {
+	color:#cfcfcf;
+}
+
+.headerLinkActive {
+	color:#cfcfcf;
+	font-weight:bold;
+}
+
+#steamLogo {
+	float:left;
+	margin:0;
+	padding:0;
+	width:105px;
+	height:54px;
+}
+
+#steamText {
+	margin:0;
+	padding:0;
+	height:35px;
+}
+
+#headerLinks {
+	margin:0;
+	padding:0;
+	height:19px;
+}
+
+#headerLinks>p {
+	padding-left:6px;
+}
+
+#subHeader {
+	position:relative;
+	margin:0;
+	padding:0;
+	height:48px;
+	background-image:url('../images/lowerBarBG.gif');
+	background-repeat:repeat-x;
+	padding-left:111px;
+	color:#344c5f;
+}
+
+.subHeaderMargin {
+	padding-top:8px;
+}
+
+a.subHeaderLink,a.subHeaderLink:hover,a.subHeaderLink:visited,a.subHeaderLink:active {
+	color:#6f9fc8;
+	text-decoration:none;
+}
+
+.subHeaderLinkActive {
+	color:#8ecbff;
+	font-weight:bold;
+}
+
+#searchBox {
+	float:right;
+	position:relative;
+	margin:0;
+	padding:0;
+	padding-right:27px;
+	padding-top:6px;
+}
+
+#searchInputBox {
+	margin-top:-6px;
+	width:170px;
+	color:#909090;
+}
+
+#searchText {
+	font-style:italic;
+	color:#6f9fc8;
+}
+
+#betaTag {
+	text-align:center;
+	position:absolute;
+	top:4px;
+	left:45px;
+	border:none;
+	z-index:99;
+}
+
+#betaText {
+	position:absolute;
+	top:34px;
+	left:115px;
+	border:none;
+	z-index:99;
+}
+
+#reportAbuse {
+	position:absolute;
+	display:block;
+	visibility:visible;
+	width:auto;
+	height:auto;
+	top:32px;
+	left:0px;
+	margin:0;
+	padding:0;
+	color:#ffffff;
+}
+
+#rAText {
+	float:left;
+	display:block;
+	visibility:visible;
+	background-color:#3f3f3f;
+	background-image:url('../images/reportAbuseBG.gif');
+	background-repeat:repeat-x;
+	width:auto;
+	margin:0;
+	padding:0;
+	height:20px;
+	line-height:18px;
+	padding-left:6px;
+	padding-right:6px;
+}
+
+#abuseReportLink {
+	color:#bebebe;
+	text-decoration:none;
+}
+
+#rALeft,#rARight {
+	float:left;
+	width:3px;
+	height:20px;
+	margin:0;
+	padding:0;
+}
+
+#rALeft {
+	background-image:url('../images/reportAbuseLeft.gif');
+}
+
+#rARight {
+	background-image:url('../images/reportAbuseRight.gif');
+}
+
+#reporter {
+	position:absolute;
+	display:none;
+	visibility:visible;
+	border:solid #595959 1px;
+	background-color:#3f3f3f;
+	margin:0;
+	width:200px;
+	left:-86px;
+	top:20px;
+	padding:6px;
+	color:#898989;
+	font-size:11px;
+	line-height:14px;
+}
+
+#reporter>a,#reporter>a:hover,#reporter>a:visited,#reporter>a:active {
+	display:inline;
+	visibility:visible;
+	color:#e1e1e1;
+	text-decoration:none;
+	font-size:11px;
+	font-family: arial, helvetica, tahoma, trebuchet ms, sans-serif;
+}

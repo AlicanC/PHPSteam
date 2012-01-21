@@ -1,0 +1,530 @@
+   
+
+body {
+	background-color:#486069;
+	background-image:url('../images/background.gif');
+	background-repeat:repeat-y;
+	background-position:center;
+	font-family:arial, Helvetica, tahoma, sans-serif;		
+	padding:0px;
+	margin:0px;
+	color: #939393;
+}
+#mainBody {
+	width:958px;
+	margin:0;
+	padding:0;
+	background-image: url('../images/contentBG_fill.gif');
+	background-repeat:repeat-y;
+}
+
+#mainContents {
+	background-image:url('../images/contentBG_top.gif');
+	background-repeat:no-repeat;
+	width:936px;
+	min-width:936px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	padding-left:17px;
+	padding-right:5px;
+}
+
+#rightContents {
+	float:right;
+	width:254px;
+	margin:0;
+	padding:0;
+	padding-left:10px;
+	padding-top:16px;
+}
+
+#mainContents h2 {
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-family: arial, Helvetica, tahoma, sans-serif;
+	padding-top:21px;
+	font-size: 26px;
+	color: #898989;
+}
+
+#mainContents h1 {
+	font-weight:normal;
+	font-family: arial, Helvetica, tahoma, sans-serif;
+	font-size: 26px;
+	color: #e1e1e1;
+	margin:0;
+	padding:0;
+	padding-top:0px;
+	padding-bottom:5px;
+}
+
+.greyHR {
+	background-color:#4d4d4e;
+	width:669px;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+
+.mainSectionHeader {
+	height:17px;
+	width:669px;
+	font-family:arial, Helvetica, tahoma, sans-serif;		
+	font-size:11px;
+	border-top:1px solid #4d4d4e;
+	padding:0;
+	margin:0;
+	padding-top:2px;
+	margin-bottom:4px;
+}
+
+#OnlineStatus{
+	margin:0;
+	padding:0;
+	padding-left:0px;
+	font-family:arial, Helvetica, tahoma, sans-serif;		
+	font-size:11px;
+	font-weight:bold;
+	height: 77px;
+}
+
+#statusOfflineText {
+	font-family:arial, Helvetica, tahoma, sans-serif;		
+	font-size:11px;
+	font-weight:bold;
+	color:#898989;
+	margin:0;
+	padding:0;
+	padding-bottom:2px;
+}
+
+#statusInGameText {
+	color:#8bc53f;
+	font-family:arial, Helvetica, tahoma, sans-serif;		
+	font-size:11px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	padding-bottom:8px;
+}
+
+#statusOnlineText {
+	margin-bottom:-10px;
+}
+	
+#profileBlock,#primaryGroupBlock {
+	width:647px;
+	margin:0;
+	padding:0;
+	padding-right:0px;
+}
+
+#currentlyPlayingIcon {
+	float:left;
+	width:40px;
+	height:40px;
+	margin:0;
+	padding:0;
+	padding-right:6px;
+}
+
+#profileAvatar,#primaryGroupAvatar {
+	float:left;
+	width:192px;
+	margin:0;
+	padding:0;
+	padding-right:12px;
+	padding-bottom:8px;
+}
+
+
+#profileBlock h1,#primaryGroupBlock h1 {
+	font-size:15px;
+	font-weight:bold;
+	font-family:arial, helvetica, tahoma, sans-serif;
+	color:#929292;
+	margin:0;
+	padding:0;
+	margin-bottom:8px;
+}
+
+#profileBlock h2,#primaryGroupBlock h2 {
+	font-size: 11px;
+	color: #939393;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+}
+
+#primaryGroupBlock h2 {
+	padding-top:2px;
+}
+
+#primaryGroupBlock h1 {
+	padding-top:24px;
+}
+
+#membersBlock {
+	width:367px;
+	margin:0;
+	padding:0;
+	padding-left:152px;
+	padding-bottom:8px;
+	padding-right:22px;
+}
+
+.membersBlockMember {
+	width:40px;
+	height:40px;
+	float:left;
+	margin:0;
+	padding:0;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-right:12px;
+}
+
+p.sectionText {
+	color: #939393;
+	font-size: 11px;
+	margin:0;
+	padding:0;
+	margin-top:12px;
+	margin-left:8px;
+	margin-bottom:12px;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+}
+
+.hiliteTextGreen {
+	color:#8bc53f;
+}
+
+.hiliteTextRed {
+	color:#f26c4f;
+}
+
+.rightSectionHeader {
+	font-size: 11px;
+	margin-bottom:8px;
+}
+
+#rightStatsBlockHeader {
+	width:254px;
+	height:8px;
+	margin:0;
+	padding:0;
+	background-image:url('../images/rightStatsBlockHeader.gif');
+}
+#rightStatsBlockFooter {
+	width:254px;
+	height:8px;
+	margin:0;
+	margin-bottom:24px;
+	padding:0;
+	background-image:url('../images/rightStatsBlockFooter.gif');
+}
+#rightStatsBlock {
+	width:254px;
+	margin:0;
+	margin-top:-2px;
+	padding:0;
+	background-image:url('../images/rightStatsBlockBG.gif');
+	background-repeat:repeat-y;
+}
+
+#rightActionBlockHeader {
+	width:254px;
+	height:9px;
+	margin:0;
+	padding:0;
+	background-image:url('../images/rightActionBlockHeader.gif');
+}
+#rightActionBlockFooter {
+	width:254px;
+	height:9px;
+	margin:0;
+	margin-bottom:24px;
+	margin-top:-4px;
+	padding:0;
+	background-image:url('../images/rightActionBlockFooter.gif');
+}
+#rightActionBlock {
+	width:254px;
+	margin:0;
+	padding:0;
+	background-image:url('../images/rightActionBlockBG.gif');
+	background-repeat:repeat-y;
+}
+
+#groupType {
+	width:245px;
+	margin:0;
+	padding:0;
+	padding-left:9px;
+}
+
+#groupTypeIcon {
+	float:left;
+	width:16px;
+	height:16px;
+	margin:0;
+	padding:0;
+	padding-right:4px;
+}
+
+#groupType p {
+	margin:0;
+	padding:0;
+	color:#e1e1e1;
+	font-size:11px;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+.groupBlock {
+	padding-left:120px;
+	height: 72px;
+	margin-bottom: 12px;
+}
+
+.groupBlockIcon {
+	float:left;
+	width:40px;
+	height:40px;
+	margin:0;
+	padding:0;
+	margin-right:8px;
+}
+
+.groupBlockMedium {
+	float:left;
+	width:72px;
+	height:72px;
+	margin:0;
+	padding:0;
+	margin-right:8px;
+}
+
+.groupSmallText {
+	font-size:11px;
+	color:#898989;
+}
+
+.underscoreColor {
+	color:#707070
+}
+
+.actionItem {
+	width:254px;
+	height:22px;
+	margin:0;
+	padding:0;
+	font-size: 11px;
+	color: #62a7e3;
+}
+
+.actionItemIcon {
+	width:16px;
+	height:16px;
+	border:none;
+	padding:0;
+	margin:0;
+	padding-left:10px;
+	padding-right:6px;
+	float:left;
+}	
+
+.statsItem {
+	width:254px;
+	margin:0;
+	padding:0;
+	margin-bottom:0px;
+	font-size: 11px;
+	color: #939393;
+	font-weight:normal;
+	line-height:12px;
+}
+
+.statsItemName {
+	padding:0;
+	margin:0;
+	float:left;
+	font-size: 11px;
+	color: #545454;
+	line-height: 12px;
+	width:85px;
+	padding-left:8px;
+	font-weight:normal;
+}
+
+.rightGreyHR {
+	margin:0;
+	padding:0;
+	width:254px;
+	height:1px;
+	background-color:#363636;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.mostPlayedBlock {
+	width:246px;
+	height:40px;
+	margin:0;
+	padding:0;
+	padding-left:8px;
+	font-size: 11px;
+	color: #939393;
+	font-weight:normal;
+}
+
+.mostPlayedBlockIcon {
+	float:left;
+	width:40px;
+	margin:0;
+	padding:0;
+	margin-right:6px;
+}
+
+.mostPlayedSmallText {
+	font-size: 11px;
+	color: #939393;
+	font-weight:normal;
+}
+
+p.rightText {
+	margin:0;
+	padding:0;
+	padding-top:2px;
+	padding-bottom:20px;
+}
+
+#groupInviteListPopup {
+	position:absolute;
+	padding:15px;
+	background-color:#000000;
+	border:solid #6a97be 1px;
+}
+
+.groupInviteLink, .groupInviteLink:hover, .groupInviteLink:visited {
+	display:block;
+	padding:0px 10px 0px 10px;
+	text-decoration:none;
+	color:#6a97be;
+}
+
+.groupInviteLink:hover {
+	color:#000000;
+	background-color:#6a97be;
+}
+
+#moreGroups {
+	display:none;
+}
+
+.indentText {
+	margin:0;
+	padding:0;
+	padding-left:152px;
+	padding-bottom:5px;
+}
+
+#lessGroupsLink {
+	display:none;
+}
+
+#primaryMemberText {
+	font-size:10px;
+	margin:0;
+	padding:0;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#moreGames	{
+	display:none;
+}
+
+#moreGamesLink	{
+	padding-left:10px;
+	padding-top:0px;
+}
+
+#moreGamesLink p {
+	margin:0;
+	padding:0;
+	padding-top:4px;
+}
+
+#lessGamesLink	{
+	padding-left:10px;
+	padding-top:3px;
+	display:none;
+}
+
+.linkTooltip {
+	color:#000000;
+	background-color:#a8a8a8;
+	border:solid black 2px;
+	margin:0;
+	padding:3px;
+	font-family:arial, Helvetica, tahoma, sans-serif;
+	font-size:11px;
+	line-height:18px;
+	text-align:left;
+}
+
+.ignoreInfo {
+	padding-left:10px;
+	color:#f26c4f;
+	font-size:11px;
+	font-weight:bold;
+	width:230px;
+	padding-bottom:6px;
+}
+
+#ignoreLink {
+	font-size: 11px;
+	color: #6f9fc8;
+	font-weight:normal;
+}
+
+#inCommon {
+	font-size: 11px;
+	color:#8b8b8b;
+	font-weight:normal;
+}
+
+.groupBlockOGGLogo {
+	float:left;
+	width:192px;
+	height:78px;
+	margin:0;
+	padding:0;
+	margin-right:11px;
+	padding-bottom:10px;
+}
+
+.listOGGTag {
+	padding-top:7px;
+	font-size:11px;
+	font-family:arial, helvetica, tahoma, sans-serif;
+}
+
+.groupBlockOGG>p {
+	margin:0;
+	padding:0;
+	padding-top:5px;
+}
+
+.groupBlockOGG {
+	clear:left;
+	padding-bottom:6px;
+}
+
+.vacText {
+	color:#f16c4f;
+}
